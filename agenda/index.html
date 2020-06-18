@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf8">
+        <title>Agenda</title>
+        <link rel="stylesheet" href="base.css"/>
+    </head>
+    <body>
+        <div id="form">
+            <form class="registro" method="post" action="">
+
+            <fieldset class="registro">
+
+                <h1>Registro de dados</h1>
+                
+                <ul class="registro">
+                    <li class="registro">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" size="10" maxlength="30" class="field">
+                    </li>
+                    <li>
+                        <label for="number">Tel:</label>
+                        <input type="tel" pattern="\([0-9{2}\)[0-9]{5}\-[0-9]{4}" size="10" maxlength="14" id="number" class="field">
+                    </li>
+                    <li>
+                        <label for="city">Cidade:</label>
+                        <input type="text" id="city" size="10"  maxlength="25" class="fild"/>
+                    </li>
+                </ul>
+
+                <div class="buttons">
+                    <input type="submit" id="submit" class="button" select="select" value="Gravar" />
+                    <input type="reset" id="reset" class="button" value="Limpar"/>
+                </div>
+
+            </fieldset>    
+            </form>
+        
+        </div>
+    </body> 
+</html>
