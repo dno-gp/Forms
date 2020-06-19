@@ -55,3 +55,15 @@ div.buttons {
     margin-left: 35%;
     border: 1px solid;
 }
+
+@media only screen and (min-width: 600px){
+    body{
+        
+    }
+
+    h1 {
+
+        background-color: red;
+    }
+    
+}
