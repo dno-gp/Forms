@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css" />
+    <title>InflaBr</title>
+</head>
+<body>
+ <div name="page" class="page" id="">
+     <div name="content" class="content">
+        <header name="head" class="head">
+            <h1>Inflação Brasil</h1>
+        </header>
+        <section>
+        <form method="post" action="" name="index">
+            <fieldset class="index" id="index-name">
+                <ul>
+                    <li>
+                        <input type="radio" id="ipca" class="index" name="radioset" value="ipca" />
+                        <label for="ipca">IPCA</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="inpc" class="index" name="radioset" value="inpc" />
+                        <label for="inpc">INPC</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="igp-m" class="index" name="radioset" value="igp-m" />
+                        <label for="igpm">IGP-M</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset class="index" id="main-fields">
+                <ul>
+                    <li>
+                        <label for="index">ÍNDICE:</label>
+                        <input type="text" size="4" maxlength="4" pattern="[0-9]\,[0-9]{2}" id="index" />
+                    </li>
+                    <li>
+                        <label for="month">Mês:</label>
+                        <select id="month" name="month">
+                            <option value="" selected>  </option>
+                            <option value="jan">Janeiro</option>
+                            <option value="fev">Fevereiro</option>
+                            <option value="mar">Março</option>
+                            <option value="abr">Abril</option>
+                            <option value="mai">Maio</option>
+                            <option value="jun">Junho</option>
+                            <option value="jul">Julho</option>
+                            <option value="ago">Agosto</option>
+                            <option value="set">Setembro</option>
+                            <option value="out">Outubro</option>
+                            <option value="nov">Novembro</option>
+                            <option value="dez">Dezembro</option>
+                        </select>
+                    </li>
+                    <li>
+                    <label for="year">Ano</label>
+                    <select id="year" name="yer">
+                        <option value="null" selected></option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                    </select>
+                    </li>
+                    <li>
+                        <input type="submit" value="Gravar" />
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+        </section>
+     </div>
+ </div>
+    
+</body>
+</html>
