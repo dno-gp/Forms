@@ -1,22 +1,23 @@
 @charset "utf-8";
 
 body{
-    background-color: lightgoldenrodyellow;
+    background-color: NONE;
 }
 
 div.page{
 
-    border: 1px solid;
+    border: 1px;
     margin: 0 25%;
-    width: 50%;
+    width: 450px;
     height: 600px;
 
 }
 
 div.content{
 
-    border: 1px solid red;
-
+    border:none;
+    width: 270px;
+    margin: 10% 20%;
 }
 
 header{
@@ -33,11 +34,14 @@ section{
 
 fieldset{
 
-    background: lightgrey;
+    background: rgb(175, 175, 253);
+    border: none;
 }
 
 h1{
     text-align: center;
+    font-size: 38px;
+    color: #000036ff;
 }
 
 ul {
@@ -81,6 +85,7 @@ label{
 ul#seclist{
 
     border: none;
+    background-color: ;
 
 }
 
