@@ -1,0 +1,33 @@
+@charset "utf8";
+
+#content{
+    margin-left: 33%;
+    width: 350px;
+    border: none;
+}
+
+h1{
+    text-align: none;
+    margin-left: 20px;
+
+}
+
+form{
+    background-color: none;
+    margin-left: 10px;
+}
+input{
+    display: block;
+    margin: 10px 2px;
+}
+
+button {
+    display: inline-block;
+    height: none;
+    margin: 10px 8px;
+}
+
+label{
+
+    padding-top: none;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css" />
+</head>
+<body>
+<div id="content">
+    <h1>Adicione <br>seu contato</h1>
+        <form method="POST" action="script.php">
+            <label for="name">Nome: </label> 
+            <input type=text maxlength="30" id="nomw" name="nome" />
+
+            <label for="contato">Contato: </label>
+            <input type="tel" id="contato" name="contato" maxlength="9" pattern="[0-9]{4}-[0-9]{4}" />
+            
+            <label for="cidade">Cidade: </label>
+            <input type="text" id="cidade" name="cidade" maxlength="30" />
+
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+</div>    
+</body>
+</html>
