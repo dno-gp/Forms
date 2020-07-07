@@ -2,12 +2,12 @@
 Elaboração de formulários diversos.<br>
 <ul>
     <li>
-    _Agendas_
+    Agendas
     </li>
     <li>
-    _Endereços_
+    Endereços
     </li>
     <li>
-    _Logins_
+    Logins
     </li>
 </ul>
